@@ -4,10 +4,21 @@ import UIKit
 
 var str = "Hello, playground"
 
-func alarmClock(number: Int) -> Int {
+func printNumber(number: Int) {
+    let newArray = String(number).characters
+    var lineOne = ""
+    var lineTwo = ""
+    var lineThree = ""
+    var lineFour = ""
+    var lineFive = ""
     
-    let number = Int(257)
+    for int in newArray {
+        switch int {
+            case "0":
+            lineOne = lineOne + " " +
+        }
+    }
     
-    return number
 }
 
+printNumber(1234)
